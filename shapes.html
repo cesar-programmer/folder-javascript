@@ -7,7 +7,74 @@
     <title>Geometric shapes</title>
 </head>
 <body>
-    <h1>Geometric Shapes</h1>
+    <header>
+        <h1>Geometric Shapes</h1>
+        <p>This is the first project of Javascript</p>
+    </header>
+
+    <section>
+        <h3>Calculate the area and contour of square</h3>
+        <form>
+            <label for="InputSquare">
+                Write how log each side of the square is:
+            </label>
+            <input id="InputSquare" type="number"/>
+            <button type="button" onclick="calculateContourSquare()">
+                Calculate contour
+            </button>
+            <button type="button" onclick="calculateAreaSquare()">
+                Calculate area
+            </button>
+        </form>
+    </section>
+    <section>
+        <h3>Calculate the area and contour of triangle</h3>
+            <label for="inputSide1">first side:</label>
+            <input id="inputSide1" type="number"/>
+            <label for="inputSide2">second side:</label>
+            <input id="inputSide2" type="number"/>
+            <label for="inputBase">base:</label>
+            <input id="inputBase" type="number"/>
+            <button type="button" onclick="calculateContourTriangle()">
+                Calculate the contour
+            </button>
+    </section>
+    <section>
+        <h3>     </h3>
+            <label for="inputBase1">base:</label>
+            <input id="inputBase1" type="number"/>
+            <label for="altura">height:</label>
+            <input id="altura" type="number"/>
+            <button type="button" onclick="calculateAreaTriangle()">
+                Calculate the Area
+            </button>
+    </section>
+    <section>
+        <h3>Calculate the area, contour and diameter of circle</h3>
+            <label for="radio">radio:</label>
+            <input id="radio" type="number"/>
+            <button type="button" onclick="calculateRadio()">
+                Calculate the diameter
+            </button>
+                <button type="button" onclick="calculateContourCircle()">
+                Calculate the contour
+            </button>
+            <button type="button" onclick="calculateAreaCircle()">
+                Calculate the area
+            </button>
+    </section>
+    <section>
+        <h3>Calculate the height of isoseles triangle</h3>
+            <label for="inputlado1">first side:</label>
+            <input id="inputlado1" type="number"/>
+            <label for="inputlado2">second side:</label>
+            <input id="inputlado2" type="number"/>
+            <label for="inputBase5">base:</label>
+            <input id="inputBase5" type="number"/>
+            <button type="button" onclick="calculateHeightTriangle()">
+                Calculate the height
+            </button>
+    </section>
     <script src="./shapes.js"></script>
 </body>
 </html>
